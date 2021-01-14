@@ -1,0 +1,14 @@
+[package]
+name = "lead-input"
+version = "0.1.0"
+authors = ["assis"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.10"
+actix-web = "3.3.2"
+serde_derive = "1.0.119"
+serde = "1.0.119"
+redirect-rules = { path = "crates/redirect-rules" }
